@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-useragent": "^1.0.15",
+    "fs": "^0.0.1-security",
+    "geoip-lite": "^1.4.8",
+    "node-fetch": "^3.2.6",
+    "path": "^0.12.7",
+    "request-ip": "^3.3.0"
+  }
+}
