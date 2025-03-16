@@ -78,11 +78,11 @@ app.get('/sim', (req, res) => {
     };
 
     console.log('\x1b[33m', '┌──────────────── •✧ • ────────────────┐');
-    console.log('\x1b[34m', '\n  ____      _    _   _    _    ____  ');
-    console.log('\x1b[35m', ' |  _ \\    / \\  | | | |  / \\  |  _ \\ ');
-    console.log('\x1b[36m', ' | |_) |  / _ \\ | |_| | / _ \\ | | | |');
-    console.log('\x1b[37m', ' |  _ <  / ___ \\|  _  |/ ___ \\| |_| |');
-    console.log('\x1b[38m', ' |_| \\_\\/_/   \\_\\_| |_/_/   \\_\\____/');
+    console.log('\x1b[34m', '\n   ____      _    _   _    _    ');
+    console.log('\x1b[35m', '   |  _ \    / \  | \ | |  / \   ');
+    console.log('\x1b[36m', '   | |_) |  / _ \ |  \| | / _ \  ');
+    console.log('\x1b[37m', '   |  _ <  / ___ \| |\  |/ ___ \ ');
+    console.log('\x1b[38m', '  |_| \_\/_/   \_\_| \_/_/   \_\');
     console.log('\x1b[34m', '\n   Author: Mohammad Rana');
     console.log('\x1b[37m', `   Message: ${teachingResponse.message}`);
     console.log('\x1b[34m', `   IP Address: ${clientIp}`);
@@ -104,10 +104,10 @@ app.get('/sim', (req, res) => {
 
       console.log('\x1b[36m', '┌──────────────── •✧ • ────────────────┐');
       console.log('\x1b[32m', '\n  ____      _    _   _    _    ____  ');
-      console.log('\x1b[33m', ' |  _ \\    / \\  | | | |  / \\  |  _ \\ ');
-      console.log('\x1b[34m', ' | |_) |  / _ \\ | |_| | / _ \\ | | | |');
-      console.log('\x1b[35m', ' |  _ <  / ___ \\|  _  |/ ___ \\| |_| |');
-      console.log('\x1b[36m', ' |_| \\_\\/_/   \\_\\_| |_/_/   \\_\\____/');
+      console.log('\x1b[33m', '  |  _ \    / \  | \ | |  / \   ');
+      console.log('\x1b[34m', '  | |_) |  / _ \ |  \| | / _ \  ');
+      console.log('\x1b[35m', '  |  _ <  / ___ \| |\  |/ ___ \ ');
+      console.log('\x1b[36m', '  |_| \_\/_/   \_\_| \_/_/   \_\');
       console.log('\x1b[34m', '\n   Author: Mohammad Rana');
       console.log('\x1b[38m', `   Message: ${responseObj.message}`);
       console.log('\x1b[36m', `   IP Address: ${clientIp}`);
@@ -122,11 +122,11 @@ app.get('/sim', (req, res) => {
       res.json(notFoundResponse);
 
       console.log('\x1b[36m', '┌──────────────── •✧ • ────────────────┐');
-      console.log('\x1b[33m', '\n  ____      _    _   _    _    ____  ');
-      console.log('\x1b[34m', ' |  _ \\    / \\  | | | |  / \\  |  _ \\ ');
-      console.log('\x1b[35m', ' | |_) |  / _ \\ | |_| | / _ \\ | | | |');
-      console.log('\x1b[36m', ' |  _ <  / ___ \\|  _  |/ ___ \\| |_| |');
-      console.log('\x1b[32m', ' |_| \\_\\/_/   \\_\\_| |_/_/   \\_\\____/');
+      console.log('\x1b[33m', '\n  ____      _    _   _    _    ');
+      console.log('\x1b[34m', '  |  _ \    / \  | \ | |  / \   ');
+      console.log('\x1b[35m', '  | |_) |  / _ \ |  \| | / _ \  ');
+      console.log('\x1b[36m', '  |  _ <  / ___ \| |\  |/ ___ \ ');
+      console.log('\x1b[32m', '  |_| \_\/_/   \_\_| \_/_/   \_\');
       console.log('\x1b[31m', '\n   Author: Mohammad Rana'); console.log('\x1b[31m', `   Message: ${notFoundResponse.message}`);
             console.log('\x1b[34m', `   IP Address: ${clientIp}`);
             console.log('\x1b[36m', `   User Agent: ${userAgentInfo}`);
@@ -141,11 +141,11 @@ app.get('/sim', (req, res) => {
           };
 
           console.log('\x1b[35m', '┌──────────────── •✧ • ────────────────┐');
-          console.log('\x1b[36m', '\n  ____      _    _   _    _    ____  ');
-          console.log('\x1b[37m', ' |  _ \\    / \\  | | | |  / \\  |  _ \\ ');
-          console.log('\x1b[38m', ' | |_) |  / _ \\ | |_| | / _ \\ | | | |');
-          console.log('\x1b[33m', ' |  _ <  / ___ \\|  _  |/ ___ \\| |_| |');
-          console.log('\x1b[33m', ' |_| \\_\\/_/   \\_\\_| |_/_/   \\_\\____/');
+          console.log('\x1b[36m', '\n  ____      _    _   _    _    ');
+          console.log('\x1b[37m', '  |  _ \    / \  | \ | |  / \   ');
+          console.log('\x1b[38m', '  | |_) |  / _ \ |  \| | / _ \  ');
+          console.log('\x1b[33m', '  |  _ <  / ___ \| |\  |/ ___ \ ');
+          console.log('\x1b[33m', '  |_| \_\/_/   \_\_| \_/_/   \_\');
           console.log('\x1b[34m', '\n     Author: Mohammad Rana');
           console.log('\x1b[37m', `   Message: ${invalidParamsResponse.error}`);
           console.log('\x1b[34m', `   IP Address: ${clientIp}`);
@@ -160,11 +160,11 @@ app.get('/sim', (req, res) => {
       app.listen(port, () => {
         console.log('\x1b[32m', ' \x1b[31mRana \x1b[32m \x1b[33mServer \x1b[32m \x1b[36mStart\x1b[32m \x1b[34mSuccessful\n',
           '┌──────────────── •✧ • ────────────────┐');
-        console.log('\x1b[35m', '\n  ____      _    _   _    _    ____  ');
-        console.log('\x1b[36m', ' |  _ \\    / \\  | | | |  / \\  |  _ \\ ');
-        console.log('\x1b[34m', ' | |_) |  / _ \\ | |_| | / _ \\ | | | |');
-        console.log('\x1b[37m', ' |  _ <  / ___ \\|  _  |/ ___ \\| |_| |');
-        console.log('\x1b[31m', ' |_| \\_\\/_/   \\_\\_| |_/_/   \\_\\____/');
+        console.log('\x1b[35m', '\n  ____      _    _   _    _    ');
+        console.log('\x1b[36m', '  |  _ \    / \  | \ | |  / \   ');
+        console.log('\x1b[34m', '  | |_) |  / _ \ |  \| | / _ \  ');
+        console.log('\x1b[37m', '  |  _ <  / ___ \| |\  |/ ___ \ ');
+        console.log('\x1b[31m', '  |_| \_\/_/   \_\_| \_/_/   \_\');
         console.log('\x1b[32m', '\n└──────────────── •✧ • ────────────────┘\n');
         console.log('\x1b[35m', `   Server is running on port ${port}`);
       });
