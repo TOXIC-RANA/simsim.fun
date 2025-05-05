@@ -14,8 +14,8 @@ app.use(useragent.express());
 let teachPhrases = {};
 let replyPhrases = {};
  
-const teachJsonFilePath = path.join(__dirname, 'rahad/Teach.json');
-const replyJsonFilePath = path.join(__dirname, 'rahad/Reply.json');
+const teachJsonFilePath = path.join(__dirname, 'rana/Teach.json');
+const replyJsonFilePath = path.join(__dirname, 'rana/Reply.json');
  
 function loadTeachPhrases() {
   try {
